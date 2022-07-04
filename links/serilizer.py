@@ -1,6 +1,6 @@
-from rest_framework import serilizers
+from rest_framework import serializers
 from .models import links
-class Linkserilizers(serializers.Modelserializers):
+class Linkserializers(serializers.Modelserializers):
     class Meta:
        model = Link
        fields = "__all__"
